@@ -16,6 +16,18 @@ public class App {
         }
         System.out.println("Votre total est de : "+prixTotal);
         clavier.close();
+
+        /*
+         * int i = 1;
+         * while(nbArticle>0){
+         * i+=1
+         * System.out.println("Donner le prix de l'article "+i);
+         * Double prix = clavier.nextDouble();
+         * prixTotal += prix;
+         * }
+         * 
+         */
+
     }
     
 }
